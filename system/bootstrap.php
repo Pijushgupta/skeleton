@@ -39,7 +39,7 @@ class bootstrap {
                     if (method_exists($app, $url[1])) {
                         $app->{$url[1]}($args);
                     } else {
-                        error::ErrorMethodNotFound("No such Method found");
+                        error::error_handler("No such Method found");
                     }
                 } else {
                     if (method_exists($app, 'index')) {
