@@ -4,7 +4,7 @@
     <head> 
     </head>
 <body>
-<h1> This is the body </h1>
+<h1> This is an Example of view   </h1>
 </body>
 
 
