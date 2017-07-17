@@ -8,5 +8,9 @@ class help extends skeleton{
         
     }
     
+    public function example(){
+        $this->view->render("abc");
+    }
+    
    
 }
