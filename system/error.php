@@ -5,7 +5,7 @@ class error {
         
     }
     
-    public function ErrorMethodNotFound($argument=null){
+    public function error_handler($argument=null){
         if($argument!=null){
             echo $argument;
         }else{
