@@ -47,7 +47,8 @@ class bootstrap {
                     }
                 }
             } else {
-                echo "no such controller";
+                error::error_handler("No such controller");
+               
             }
             
         } else {
